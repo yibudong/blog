@@ -11,8 +11,6 @@ var flash=require('connect-flash');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-var multer=require('multer')
-var upload=multer({dest:'./public/images'})
 var app = express();
 // view engine setup
 
